@@ -10,7 +10,12 @@ This is an OS / tools for penetration testing
 #### copyright at DevDisk
 # 
 # 
-##### ------------------------- DevDisk--------------------
+##### ------------------------- DevDisk-------------------------
 # 
 # 
 ## Download .iso file from below
+
+
+{/#} DevDisk Project
+{(/#)} Development by DevDisk
+{(/#)}           With Team Cloude
