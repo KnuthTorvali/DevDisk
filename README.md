@@ -1,7 +1,7 @@
 # DevDisk
 This is an OS / tools for penetration testing
 
-## made by Knuth torvali
+## made by Knuth torvali & Appleoranged77
 ## Team Cloude
 
 ### DevDisk Progect
