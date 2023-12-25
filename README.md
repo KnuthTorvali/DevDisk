@@ -4,7 +4,7 @@ This is an OS / tools for penetration testing
 ## made by Knuth torvali & Appleoranged77
 ## Team Cloude
 
-### DevDisk Progect
+### DevDisk Project
 
 #### copyright at Team Cloude
 #### copyright at DevDisk
