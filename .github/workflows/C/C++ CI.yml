@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -18,16 +18,16 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y build-essential
 
     - name: Build
-      run: g++ Multithread.cpp -o my_program
+      run: g++ Multithread.cpp DevDisk.cpp -o my_program
 
     - name: Run tests
       run: ./my_program
 
     - name: Check code quality
-      run: cppcheck Multithread.cpp
+      run: cppcheck Multithread.cpp DevDisk.cpp
 
     - name: Generate coverage report
-      run: gcov Multithread.cpp
+      run: gcov Multithread.cpp DevDisk.cpp
 
     - name: Publish coverage results
       uses: codecov/codecov-action@v2
