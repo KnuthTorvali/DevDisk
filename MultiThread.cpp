@@ -1,18 +1,20 @@
 #include <thread>
 #include <iostream>
 
+using namespace std;
+
 class ThreadManager {
 public:
     ThreadManager() {}
 
     void RunThread(int threadNum) {
-        std::cout << "Thread " << threadNum << " is running." << std::endl;
+        cout << "Thread " << threadNum << " is running." << endl;
     }
 
     void startThreads() {
       
-        thread1 = std::thread(&ThreadManager::RunThread, this, 1);
-        thread2 = std::thread(&ThreadManager::RunThread, this, 2);
+        thread1 = thread(&ThreadManager::RunThread, this, 1);
+        thread2 = thread(&ThreadManager::RunThread, this, 2);
     }
 
     void joinThreads() {
@@ -21,6 +23,6 @@ public:
     }
 
 private:
-    std::thread thread1;
-    std::thread thread2;
+    thread thread1;
+    thread thread2;
 };
