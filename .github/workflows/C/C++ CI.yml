@@ -18,10 +18,10 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y build-essential
 
     - name: Build
-      run: g++ Multithread.cpp DevDisk.cpp -o my_program
+      run: g++ Multithread.cpp DevDisk.cpp -o DevDisk.exe
 
     - name: Run tests
-      run: ./my_program
+      run: ./DevDisk.exe
 
     - name: Check code quality
       run: cppcheck Multithread.cpp DevDisk.cpp
