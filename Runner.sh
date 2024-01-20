@@ -1,5 +1,5 @@
 #!/bin/bash
 
-file_path=".\DevDisk.cpp" # EDIT THIS
+file_path="Downloads\DevDisk.cpp" # EDIT THIS TO YOUR DOWNLOAD PATH
 
 $file_path
