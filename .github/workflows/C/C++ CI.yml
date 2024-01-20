@@ -34,4 +34,4 @@ jobs:
 
     - name: Deploy
       if: success()
-      run: echo "Deployment steps go here"
+      run: echo "Sucessful. DevDisk ready to run"
